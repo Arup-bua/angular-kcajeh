@@ -22,7 +22,7 @@ this.serverCreated.emit({serverName: this.newServerName, serverContent: this.new
 this.newServerName = '';
 }
 
-OonAddBlueprint() {
+onAddBlueprint() {
 this.blueprintCreated.emit({serverName: this.newServerName, serverContent: this.newServerContent});
 this.newServerContent = '';
 }
